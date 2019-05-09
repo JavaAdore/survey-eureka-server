@@ -1,0 +1,11 @@
+server:
+ port: ${SURVEY_EUREKA_SERVER_PORT}
+spring:
+ application:
+  name: survey-eureka-server
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
